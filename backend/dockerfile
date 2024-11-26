@@ -1,5 +1,5 @@
 FROM node:20.17.0
-WORKDIR /docker/chat-app/backend
+WORKDIR /docker/chat-app/
 COPY package*.json ./
 RUN npm install 
 COPY . .
